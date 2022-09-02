@@ -1,0 +1,179 @@
+header{
+    background-color: rgb(126, 197, 150);
+    margin: 0;
+}
+
+hr{
+    margin: 0;
+    height:10px;
+    background-color: black;
+}
+
+#lightBtn, #darkBtn {
+    border-radius: 4px;
+    font-size: 20px;
+    border-width: 5px;
+    margin: 0 0 10px 20%;
+    height: 50px;
+    
+}
+
+#darkBtn {
+    background-color: black;
+    
+    color: white;
+}
+
+#darkBtn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.05s;
+    cursor: pointer;
+}
+
+#darkBtn:active{
+    font-size: 19px;
+}
+
+#lightBtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.05s;
+    cursor: pointer;
+}
+
+#lightBtn:active{
+    font-size: 19px;
+}
+
+#create, #lightBtn, #darkBtn{
+    display: inline;
+}
+
+#create{
+    font-size: 50px;
+}
+
+
+
+#black, #green, #red, #blue{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#black, #green, #red, #blue, #textNameColor{
+    display: inline;
+    margin-top: 20px;
+}
+
+#textNameColor{
+    font-size: 50px;
+}
+
+#black:hover{
+    background-color: black;
+    color: white;
+    transition: .05s;
+    cursor: pointer;
+}
+
+#green:hover{
+    color: green;
+    transition: .05s;
+    cursor: pointer;
+}
+
+#red:hover{
+    color: red;
+    transition: .05s;
+    cursor: pointer;
+}
+#blue:hover{
+    color: blue;
+    transition: .05s;
+    cursor: pointer;
+}
+
+#characterBio{
+
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+ #getStartedbtn{
+    font-size: 45px;
+    margin-left: 40%;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: goldenrod;
+    background-color: rgb(0, 0, 201);
+    color: white;
+ }
+
+ #getStartedbtn:hover{
+    background-color: rgb(92, 92, 236);
+    transition: .2s;
+    cursor: pointer;
+ }
+
+
+#bioInput{
+    height: 300px;
+    width: 80%;
+    resize: none;
+    margin: 0;
+}
+
+#dataEntry{
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#allInputs{
+    list-style: none;
+    margin: 20px 0 0 0
+}
+
+#nameInput, #raceInput, #genderInput, #classInput {
+    height: 50px;
+    width: 50%;
+    
+
+}
+
+#nameInput, #raceInput, #genderInput {
+    margin: 0 0 50px 0
+}
+
+#nameInput{
+    margin-left: 50px;
+}
+
+#raceInput{
+    margin-left: 66px;
+}
+
+#genderInput {
+    margin-left: 27px;
+}
+
+#classInput {
+    margin-left: 57px;
+}
+
+#saveName, #saveRace, #saveGender, #saveClass, #saveBio {
+    font-size: 20px;
+    border-width: 5px;
+    border-color: goldenrod;
+    background-color: rgb(0, 0, 201);
+    color: white;
+}
+
+#saveName:hover, #saveRace:hover, #saveGender:hover, #saveClass:hover, #saveBio:hover{
+    background-color: rgb(92, 92, 236);
+    transition: .2s;
+    cursor: pointer;
+}
